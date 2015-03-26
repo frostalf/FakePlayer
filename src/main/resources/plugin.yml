@@ -1,0 +1,12 @@
+name: FakePlayerExample
+main: net.frostalf.fakeplayerexample.FakePlayer
+version: maven-version-number
+description: Fake Player Example
+authors: [Frostalf]
+website: frostalf.net
+commands:
+    fp:
+        description: Fake Player Example
+permissions:
+    FakePlayer.*:
+        default: OP
